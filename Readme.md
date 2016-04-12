@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Andrew Karpenko](https://up.htmlacademy.ru/htmlcss/13/user/100565).
-* Наставник: [Сергей Попов](https://up.htmlacademy.ru/htmlcss/13/user/42761).
+* Наставник: [Сергей Yoda Попов](https://up.htmlacademy.ru/htmlcss/13/user/42761).
 
 ---
 
