@@ -1,12 +1,159 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
+<head>
+   <title>NЁRDS - Дизайн студия</title>
+    <meta charset="UTF-8">
+</head>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+<!-- Меню -->
 
-  </body>
+<body>
+    <header>
+        <div class="center-wrapper">
+            <div class="header-menu">
+                <h1 class="logo"><img src="#" alt="Логотип NЁRDS" width="150" height="50"></h1>
+                <nav class="top-menu">
+                    <ul>
+                        <li><a href="#" class="active">Студия</a></li>
+                        <li><a href="#">Клиенты</a></li>
+                        <li><a href="#">Магазин</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li class="basket icon-basket"><a href="#">Корзина</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+<!-- Слайдер -->
+
+            <div class="slider">
+                <input type="radio" id="slide-1" name="toggle" checked>
+                <input type="radio" id="slide-2" name="toggle">
+                <input type="radio" id="slide-3" name="toggle">
+                <div class="slider-controls">
+                    <label for="slide-1"></label>
+                    <label for="slide-2"></label>
+                    <label for="slide-3"></label>
+                </div>
+                <div class="slides">
+                    <div class="slide slide-1">
+                        <h3 class="slide-title">Долго, дорого,<br> скрупулезно.</h3>
+                        <div class="slide-text">
+                            <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения</p>
+                            <a href="#" class="btn btn-slider">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="slide slide-2">
+                        <h3 class="slide-title">Любите ли вы математику,<br> как любим ее мы?</h3>
+                        <div class="slide-text">
+                            <p>Нашим дизайнерам мы удаляем нейроны, ответственные<br> за креатив, чтобы дать им возможность все просчитать</p>
+                            <a href="#" class="btn btn-slider">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="slide slide-3">
+                        <h3 class="slide-title">Только наркотики,<br> только хардкор!</h3>
+                        <div class="slide-text">
+                            <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галюциногенов</p>
+                            <a href="#" class="btn btn-slider">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Услуги / Таблица -->
+
+    <div class="center-wrapper">
+        <ul class="ability">
+            <li class="order">
+                <div class="ability-foto web-site"><img src="#" alt="Laptop foto" height="150" width="250"></div>
+                <h3 class="ability-title">Веб-сайты</h3>
+                <p class="ability-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                <a href="#" class="btn">Заказать</a>
+            </li>
+            <li class="application">
+                <div class="ability-foto application"><img src="#" alt="Mobile phone foto" height="150" width="250"></div>
+                <h3 class="ability-title">Приложения</h3>
+                <p class="ability-description">Покорите топ-10 приложений<br> в AppStore и Google Play!</p>
+                <a href="#" class="btn">Заказать</a>
+            </li>
+            <li class="presentation">
+                <div class="ability-foto presentation"><img src="#" alt="Presentation foto" height="150" width="250"></div>
+                <h3 class="ability-title">Презентации</h3>
+                <p class="ability-description">Вы даже не подозреваете, насколько вы изумительны!</p>
+                <a href="#" class="btn">Заказать</a>
+            </li>
+        </ul>
+
+<!-- Про нас / Фичи -->
+
+        <div class="about-us">
+            <div class="section-left">
+                <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
+                <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как работы.</p>
+            </div>
+            <div class="section-right">
+                <h3 class="about-us-logo">
+                    <a href="index.html"><img src="#" alt="Логотип NЁRDS" width="150" height="50"></a>
+                </h3>
+                <div class="about-us-start-working"><p>Since 2004</p></div>
+            </div>
+        </div>
+        <div class="develop">
+            <div class="section-left">
+                <h3>Выполняем заказы на разработку:</h3>
+                <ul>
+                    <li>Веб-сайтов любой сложности</li>
+                    <li>Мобильных приложений для iOS и Android</li>
+                    <li>Слайдшоу и видео для корпоративных презентаций</li>
+                </ul>
+            </div>
+            <div class="section-right">
+               <h3>Как мы работаем:</h3>
+                <ul>
+                    <li>С самоотдачей 146%</li>
+                    <li>Соблюдая сроки на 100%</li>
+                    <li>По предоплате 50%</li>
+                </ul>
+            </div>
+        </div>
+
+<!-- Портфолио -->
+
+        <ul class="portfolio">
+        </ul>
+    </div>
+
+  <!-- Карта + Контакты -->
+
+    <div class="map-contact">
+       <div class="yandex-map" id="map"></div>
+        <div class="center-wrapper">
+            <div class="contact">
+                <h2 class="contact-title">NЁRDS design studio</h2>
+                <p class="contact-address">191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+                <p class="contact-tel">тел. +7 (861) 275-75-75</p>
+                <a href="#" class="btn account-menu-enter">Напишите нам</a>
+            </div>
+        </div>
+    </div>
+
+<!-- Подвал / Социальные сети -->
+
+    <footer>
+        <div class="center-wrapper">
+                <a href="https://vk.com/id13825621" class="btn-social icon-social-vk"></a>
+                <a href="#" class="btn-social icon-social-fb"></a>
+                <a href="#" class="btn-social icon-social-inst"></a>
+            </div>
+
+<!-- Бонус -->
+
+            <div class="bonus">
+                <h4>Давайте дружить, это выгодно!</h4>
+                <p class="bonus-discription">Скидка 10% для друзей из социальных сетей.</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
