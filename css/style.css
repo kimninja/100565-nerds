@@ -6,14 +6,12 @@ body {
 	color: #283136;
 }
 
-.header-title {
+.main-heading {
 	font-family: Roboto, Arial, Helvetica, sans-serif;
 	font-size: 40px;
 	font-weight: normal;
 	line-height: 48px;
-	text-transform: uppercase;
 	color: #000000;
-
 }
 
 .social-heading {
