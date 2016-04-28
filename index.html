@@ -1,12 +1,162 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
+<head>
+   <title>NЁRDS - Дизайн студия</title>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container clearfix">
+            <div class="header-logo">
+                <img src="img/logo/nerdslogo1.png" alt="Логотип NЁRDS" width="139" height="56">
+            </div>
+            <nav class="main-navigation">
+                <ul class="main-navigation-list">
+                    <li class="list-item">Студия</li>
+                    <li class="list-item"><a href="#">Клиенты</a></li>
+                    <li class="list-item"><a href="catalog.html">Магазин</a></li>
+                    <li class="list-item"><a href="#">Контакты</a></li>
+                </ul>
+                <div class="cart">
+				    <a href="#">Корзина</a>
+				</div>
+            </nav>
+        </div>
+        <div class="slider">
+            <input type="radio" id="btn-1" name="toggle" checked>
+            <input type="radio" id="btn-2" name="toggle">
+            <input type="radio" id="btn-3" name="toggle">
+            <div class="slider-controls">
+                <label for="btn-1"></label>
+                <label for="btn-2"></label>
+                <label for="btn-3"></label>
+            </div>
+            <div class="slides">
+                <div class="slide">
+                    <div class="slide-description">
+                        <div class="slide-title">Долго, дорого,<br> скрупулезно.</div>
+                        <p class="slide-text">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения</p>
+                        <a class="btn slider-btn" href="#" >Узнать больше</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-description">
+                        <div class="slide-title">Любите ли вы математику,<br> как любим ее мы?</div>
+                        <p class="slide-text">Нашим дизайнерам мы удаляем нейроны, ответственные<br> за креатив, чтобы дать им возможность все просчитать</p>
+                        <a class="btn slider-btn" href="#">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-description">
+                        <div class="slide-title">Только наркотики,<br> только хардкор!</div>
+                        <p class="slide-text">Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галюциногенов</p>
+                        <a class="btn slider-btn" href="#" >Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="container">
+            <div class="offer clearfix">
+                <div class="offer-block">
+                    <img class="offer-pic" src="img/content/laptop.jpg" alt="Ноутбук" width="240" height="124">
+                    <h2 class="offer-heading">Веб-сайты</h2>
+                    <p class="offer-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                    <a class="btn btn-red" href="#">Заказать</a>
+                </div>
+                <div class="offer-block">
+                    <img class="offer-pic" src="img/content/mobile.jpg" alt="Мобильный телефон" width="240" height="124">
+                    <h2 class="offer-heading">Приложения</h2>
+                    <p class="offer-text">Покорите топ-10 приложений<br> в AppStore и Google Play!</p>
+                    <a href="#" class="btn btn-green">Заказать</a>
+                </div>
+                <div class="offer-block">
+                    <img src="img/content/presentation.jpg" alt="Перезентация" width="240" height="124">
+                    <h2 class="offer-heading">Презентации</h2>
+                    <p class="offer-text">Вы даже не подозреваете, насколько вы изумительны!</p>
+                    <a class="btn btn-yellow" href="#">Заказать</a>
+                </div>
+            </div>
+            <div class="about-us clearfix">
+                <div class="advantages">
+                    <h1 class="advantages-heading">Мы - маленькая, но гордая дизайн-студия из Краснодара.</h1>
+                    <p class="advantages-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как работы.</p>
+                    <h2 class="about-us-heading">Выполняем заказы на разработку:</h2>
+                    <ul class="advantages-list">
+                        <li class="advantages-list-item">Веб-сайтов любой сложности</li>
+                        <li class="advantages-list-item">Мобильных приложений для iOS и Android</li>
+                        <li class="advantages-list-item">Слайдшоу и видео для корпоративных презентаций</li>
+                    </ul>
+                </div>
+                <div class="features">
+                    <div class="nerds-logo">
+						<img src="img/logo/nerdslogo2.png" width="187" height="75" alt="Логотип NЁRDS-2">
+                        <div class="since-2004">
+                            <p>SINCE 2004</p>
+                        </div>
+                    </div>
+                    <h2 class="about-us-heading">Как мы работаем:</h2>
+                    <ul>
+                        <li class="advantages-list-item">С самоотдачей 146%</li>
+                        <li class="advantages-list-item">Соблюдая сроки на 100%</li>
+                        <li class="advantages-list-item">По предоплате 50%</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="partners">
+                <a class="partner-item" href="#"><img src="img/decoration/glukhanko.png" alt="Сайт Glukhanko" width="198" height="37"></a>
+                <a class="partner-item" href="#"><img src="img/decoration/htmlacademy.png" alt="Сайт Htmlacademy" width="199" height="68"></a>
+                <a class="partner-item" href="#"><img src="img/decoration/barbershop.png" alt="Сайт Barbershop Borodinski" width="209"</a>
+            </div>
+        </div>
+        <div class="find-us">
+            <div class="map-block">
+                <iframe class="map" src="#"></iframe>
+            </div>
+            <div class="contacts">
+              <h2 class="contact-heading">NЁRDS design studio</h2>
+                <p class="contact-text">191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+                <p class="contact-text">тел. +7 (861) 275-75-75</p>
+                <a class="btn btn-contact" href="#">Напишите нам</a>
+            </div>
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="container clearfix">
+		    <div class="social">
+		        <a href="#" class="social-btn social-btn-vk">VK</a>
+		        <a href="#" class="social-btn social-btn-fb">Facebook</a>
+		        <a href="#" class="social-btn social-btn-inst">Instagram</a>
+		    </div>
+                <div class="social-text">
+				    <p class="social-heading">Давайте дружить, это выгодно!</p>
+					<p class="discount">Скидка 10% для друзей из социальных сетей.</p>
+				</div>
+		</div>
+    </footer>
+        <div class="pop-up-wrapper">
+			<div class="pop-up ">
+				<form action="#">
+					<div class="clearfix">
+						<div class="user-block">
+							<label class="label-text" for="username">Ваше имя:</label>
+							<input class="user" id="username" type="text" placeholder="Представьтесь, пожалуйста">
+						</div>
+						<div class="user-block">
+							<label class="label-text" for="email">Ваш e-mail:</label>
+							<input class="user" id="email" type="email" placeholder="Для отправки ответа">
+						</div>
+					</div>
+					<div class="text-field">
+						<label class="label-text" for="letter">Текст письма:</label>
+						<textarea class="text-area" name="text" id="letter" placeholder="В свободной форме"></textarea>
+						<input class="submit-btn btn-red" type="submit" value="Отправить">
+					</div>
+				</form>
+				<div class="btn-close"></div>
+			</div>
+		</div>
+</body>
 </html>
