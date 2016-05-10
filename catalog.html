@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-   <title>NЁRDS - Магазин готовых макетов</title>
-   <meta charset="UTF-8">
-   <link href="css/style.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>NERDS:Каталог</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="main-header">
-        <div class="container">
-            <a class="header-logo" href="index.html">
-                <img src="img/logo/nerdslogo1.png" alt="Логотип NЁRDS" width="139" height="56"></a>
-                <nav class="main-navigation">
-                    <ul class="main-navigation-list">
-                        <li class="list-item"><a href="index.html">Студия</a></li>
-                        <li class="list-item"><a href="#">Клиенты</a></li>
-                        <li class="list-item">Магазин</li>
-                        <li class="list-item"><a href="#">Контакты</a></li>
-                    </ul>
-                    <div class="cart">
-                        <a href="#">Корзина</a>
-                    </div>
-                </nav>
-                <h1 class="main-heading">Добро пожаловать в магазин<br> готовых макетов</h1>
-        </div>
-    </header>
-    <div class="main-content inner-main-content">
-        <div class="container clearfix">
-            <div class="parameters">
-                <form action="#" method="GET">
-					<h2 class="parameters-heading cost">Стоимость:</h2>
+	<header class="main-header">
+		<div class="container">
+			<a class="header-logo" href="index.html">
+				<img  src="img/logo/logo.png" width="139" height="56" alt="нёрдс">
+			</a>
+			<nav class="main-navigation">
+				<ul class="main-navigation-list">
+					<li class="list-item"><a href="index.html">студия</a></li>
+					<li class="list-item"><a href="#">клиенты</a></li>
+					<li class="list-item active"><a href="#">магазин</a></li>
+					<li class="list-item"><a href="#">контакты</a></li>
+				</ul>
+				<div class="cart">
+					<a href="#">корзина</a>
+				</div>
+			</nav>
+			<h1 class="main-heading"> Добро пожаловать в магазин готовых макетов</h1>
+		</div> <!--end container-->
+	</header> <!--end main-header -->
+	<div class="main-content inner-main-content">
+		<div class="container clearfix">
+			<div class="parameters">
+				<form action="#" method="GET">
+					<h3 class="parameters-heading cost">Стоимость:</h3>
 					<div class="range-filter">
 						<div class="range-controls">
 							<div class="scale">
@@ -43,7 +46,7 @@
 							<label class="max-price">до <input name="max-price" type="text" value="15000"></label>
 						</div>
 					</div>
-					<h2 class="parameters-heading">Сетка:</h2>
+					<h3 class="parameters-heading">Сетка:</h3>
 					<ul class="parameters-list">
 						<li class="type-item">
 							<input class="radio-item" name="radio-btn" id="adaptive" type="radio" value="adaptive"
@@ -59,7 +62,7 @@
 							<label for="rubber">Резиновая</label>
 						</li>
 					</ul>
-					<h2 class="parameters-heading">Особенности:</h2>
+					<h3 class="parameters-heading">Особенности:</h3>
 					<ul class="parameters-list">
 						<li class="type-item">
 							<input type="checkbox" class="checkbox-item" id="slider" name="specific"
@@ -83,9 +86,9 @@
 							<label for="cart">Корзина</label>
 						</li>
 					</ul>
-					<input class="parameters-btn" type="button" value="Показать">
+					<input class="parameters-btn" type="submit" value="Показать">
 				</form>
-			</div>
+			</div> <!-- end parameters-->
 			<div class="template">
 				<div class="select clearfix">
 					<ul class="select-list">
@@ -94,90 +97,67 @@
 						<li class="select-list-item"><a href="#">по типу</a></li>
 						<li class="select-list-item"><a href="#">по функционалу</a></li>
 					</ul>
-						<a class="arrow arrow-up" href="#"></a>
-						<a class="arrow arrow-down active" href="#"></a>
+					<div class="arrows-block">
+						<ul class="arrows-list">
+							<li>
+								<a class="arrow arrow-up" href="#"></a>
+							</li>
+							<li>
+								<a class="arrow arrow-down active" href="#"></a>
+							</li>
+						</ul>
+					</div>
 				</div>
-		    </div>
-				<div class="template-list">
-					<div class="template-list-item">
-				        <ul class="browser">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-						<img src="img/content/aviator.jpg" width="240" height="240" alt="Фото галереи">
+				<ul class="template-list">
+					<li class="template-list-item">
+						<img src="img/content/photo1.jpg" width="240" height="240" alt="Фото галереи">
 						<div class="description">
-							<h2 class="description-heading">Aviator</h2>
+							<h3 class="description-heading">Aviator</h3>
 							<p class="description-text">Одностраничный макет с авторским дизайном</p>
 							<a class="template-price" href="#">8000 Р.</a>
 						</div>
-					</div>
-					<div class="template-list-item">
-				        <ul class="browser">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-						<img src="img/content/sunset.jpg" width="240" height="240" alt="Фото галереи">
+					</li>
+					<li class="template-list-item">
+						<img src="img/content/photo2.jpg" width="240" height="240" alt="Фото галереи">
 						<div class="description">
-							<h2 class="description-heading">Sunset</h2>
+							<h3 class="description-heading">Sunset</h3>
 							<p class="description-text">Интернет магазин с личным кабинетом</p>
 							<a class="template-price" href="#">10000 Р.</a>
 						</div>
-					</div>
-					<div class="template-list-item">
-				        <ul class="browser">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-						<img src="img/content/forte.jpg" width="240" height="240" alt="Фото галереи">
+					</li>
+					<li class="template-list-item">
+						<img src="img/content/photo3.jpg" width="240" height="240" alt="Фото галереи">
 						<div class="description">
-							<h2 class="description-heading">Forte</h2>
+							<h3 class="description-heading">Forte</h3>
 							<p class="description-text">Отличный макет для личного блога</p>
 							<a class="template-price" href="#">5000 Р.</a>
 						</div>
-					</div>
-					<div class="template-list-item">
-				        <ul class="browser">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-						<img src="img/content/marquee.jpg" width="240" height="240" alt="Фото галереи">
+					</li>
+					<li class="template-list-item">
+						<img src="img/content/photo4.jpg" width="240" height="240" alt="Фото галереи">
 						<div class="description">
-							<h2 class="description-heading">Modern organic Thai</h2>
+							<h3 class="description-heading">Modern organic Thai</h3>
 							<p class="description-text">Сайт для ресторана быстрого питания</p>
 							<a class="template-price" href="#">12000 Р.</a>
 						</div>
-					</div>
-					<div class="template-list-item">
-						<ul class="browser">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-						<img src="img/content/avenue.jpg" width="240" height="240" alt="Фото галереи">
+					</li>
+					<li class="template-list-item">
+						<img src="img/content/photo5.jpg" width="240" height="240" alt="Фото галереи">
 						<div class="description">
-							<h2 class="description-heading">Avenue</h2>
+							<h3 class="description-heading">Avenue</h3>
 							<p class="description-text">Макет для блога о путешествиях</p>
 							<a class="template-price" href="#">8000 Р.</a>
 						</div>
-					</div>
-					<div class="template-list-item">
-				        <ul class="browser">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-						<img src="img/content/dovetail.jpg" width="240" height="240" alt="Фото галереи">
+					</li>
+					<li class="template-list-item">
+						<img src="img/content/photo6.jpg" width="240" height="240" alt="Фото галереи">
 						<div class="description">
-							<h2 class="description-heading">Dovetail</h2>
+							<h3 class="description-heading">Dovetail</h3>
 							<p class="description-text">Интернет магазин с галереей товаров</p>
 							<a class="template-price" href="#">14000 Р.</a>
 						</div>
-					</div>
-				</div>
+					</li>
+				</ul>
 				<div class="paginator-block">
 					<ul class="paginator-list">
 						<li class="paginator-page active">1</li>
@@ -191,30 +171,30 @@
 							<a  href="#">следующая</a>
 						</li>
 					</ul>
-				</div>
-			</div>
-		</div>
+				</div> <!-- end paginator-block-->
+			</div> <!-- end template-->
+		</div> <!--end conteiner clearfix -->
 		<div class="find-us">
 			<div class="map-block">
-				<iframe class="map" src="#"></iframe>
+				<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123647!2d30.32089461566686!3d59.938796869048474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1455705789983" width="100%" height="416" style="border:0 none" allowfullscreen></iframe>
 			</div>
 			<div class="contacts">
-				<h2 class="contacts-heading"> NЁrds design studio</h2>
+				<h3 class="contacts-heading"> NЁrds design studio</h3>
 				<p class="contacts-text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 				<p class="contacts-text"> тел. +7 (812) 275-75-75</p>
-				<a class="btn btn-contact" href="#">Напишите нам</a>
+				<a class="btn btn-contact" href="write_us.html">Напишите нам</a>
 			</div>
 		</div>
-	</div>
+	</div><!-- end main-content-->
 	<footer class="main-footer">
 		<div class="container clearfix">
 			<div class="social">
-				<a href="#" class="social-btn social-btn-vk">VK</a>
-				<a href="#" class="social-btn social-btn-fb">Facebook</a>
-				<a href="#" class="social-btn social-btn-inst">Instagram</a>
+				<a href="#" class="social-btn social-btn-vk"></a>
+				<a href="#" class="social-btn social-btn-fb"></a>
+				<a href="#" class="social-btn social-btn-inst"></a>
 			</div>
 			<div class="social-text">
-				<p class="social-heading">Давайте дружить, это выгодно!</p>
+				<h3 class="social-heading">Давайте дружить, это выгодно!</h3>
 				<p class="discount">Скидка 10% для друзей из социальных сетей.</p>
 			</div>
 		</div>
@@ -225,7 +205,7 @@
 				<div class="clearfix">
 					<div class="user-block">
 						<label class="label-text" for="username">Ваше имя:</label>
-						<input class="user" id="username" type="text" placeholder="Представьтесь, пожалуйста">
+						<input class="user" id="username" type="text" placeholder="Представьтесь,пожалуйста">
 					</div>
 					<div class="user-block">
 						<label class="label-text" for="email">Ваш e-mail:</label>
@@ -235,10 +215,10 @@
 				<div class="text-field">
 					<label class="label-text" for="letter">Текст письма:</label>
 					<textarea class="text-area" name="text" id="letter" placeholder="В свободной форме"></textarea>
-                  <button class="submit-btn btn-red" type="submit" value="Отправить"></button>
+					<input class="submit-btn btn-red" type="submit" value="Отправить">
 				</div>
 			</form>
-			<button class="btn-close" type="button"></button>
+			<div class="btn-close"></div>
 		</div>
 	</div>
 </body>
