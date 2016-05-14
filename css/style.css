@@ -109,6 +109,7 @@ body {
   margin-top: 0px;
   padding-top: 0px;
   width: 140px;
+  cursor: pointer;
 }
 
 .main-navigation {
@@ -736,6 +737,7 @@ body {
   vertical-align: middle;
   border: 0 none;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .parameters-btn:hover {
@@ -1446,7 +1448,7 @@ input[type="checkbox"]:checked:disabled+label::before {
 
 .modal-content {
   position: absolute;
-  top: 120px;
+  top: 110px;
   left: 50%;
   display: none;
   width: 462px;
@@ -1457,8 +1459,8 @@ input[type="checkbox"]:checked:disabled+label::before {
   transform: translateX(-50%);
   box-shadow: 0 30px 70px 10px #283136;
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 53%;
+  left: 49%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -1685,6 +1687,7 @@ input[type="checkbox"]:checked:disabled+label::before {
   border: 0px;
   margin-top: 48px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .send:hover {

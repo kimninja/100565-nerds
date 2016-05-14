@@ -6,7 +6,7 @@
   <title>Веб-студия</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:500,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-dist.css">
 </head>
 
 <body>
@@ -158,28 +158,6 @@
       </div>
     </div>
   </footer>
-  <div class="pop-up-wrapper">
-    <div class="pop-up">
-      <form action="#">
-        <div class="clearfix">
-          <div class="user-block">
-            <label class="label-text" for="username">Ваше имя:</label>
-            <input class="user" id="username" type="text" placeholder="Представьтесь,пожалуйста">
-          </div>
-          <div class="user-block">
-            <label class="label-text" for="email">Ваш e-mail:</label>
-            <input class="user" id="email" type="email" placeholder="Для отправки ответа">
-          </div>
-        </div>
-        <div class="text-field">
-          <label class="label-text" for="letter">Текст письма:</label>
-          <textarea class="text-area" name="text" id="letter" placeholder="В свободной форме"></textarea>
-          <input class="submit-btn btn-red" type="submit" value="Отправить">
-        </div>
-      </form>
-      <div class="btn-close"></div>
-    </div>
-  </div>
   <div class="modal-content">
     <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
     <form class="login-form" action="#" method="post">
@@ -193,12 +171,11 @@
       </div>
       <div class="text-letter-form effect-modal">
         <label for="label-modal">Текст письма:</label>
-        <textarea id="label-modal" class="icon-text" name="letter" placeholder="В свободной форме"></textarea>
+        <textarea id="label-modal" class="icon-text" type="text" name="letter" placeholder="В свободной форме"></textarea>
       </div>
       <button class="send" type="submit">Отправить</button>
     </form>
   </div>
   <script src="js/script.js"></script>
 </body>
-
 </html>
