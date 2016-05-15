@@ -5,17 +5,17 @@ var names = popup.querySelector("[name=names]");
 var form = popup.querySelector("form");
 var email = popup.querySelector("[name=email]");
 var text = popup.querySelector("[name=letter]");
-var storage = localStorage.getItem("names");
+//var storage = localStorage.getItem("names");
 
 link.addEventListener("click", function (event) {
   event.preventDefault();
   popup.classList.add("modal-content-show");
-  if (storage) {
-    names.value = storage;
-    email.focus();
-  } else {
-    names.focus();
-  }
+//  if (storage) {
+//    names.value = storage;
+//    email.focus();
+//  } else {
+//    names.focus();
+//  }
 });
 
 close.addEventListener("click", function (event) {
