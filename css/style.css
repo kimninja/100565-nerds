@@ -1148,6 +1148,7 @@ input[type="checkbox"]:checked:disabled+label::before {
 .find-us {
   position: relative;
   height: 416px;
+  overflow: hidden;
 }
 
 .contacts {
@@ -1660,7 +1661,7 @@ input[type="checkbox"]:checked:disabled+label::before {
   width: 220px;
 }
 
-.login-form textarea[type="text"] {
+.login-form textarea[class="icon-text"] {
   margin: 0px;
   padding: 11px 15px;
   font-size: 12px;
