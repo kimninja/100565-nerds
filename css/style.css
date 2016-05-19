@@ -738,6 +738,7 @@ body {
   border: 0 none;
   border-radius: 3px;
   cursor: pointer;
+  padding: 0;
 }
 
 .parameters-btn:hover {
